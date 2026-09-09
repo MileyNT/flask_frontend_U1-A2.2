@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - Flask Frontend{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Bienvenido a la Microaplicación Web</h2>
+    <p>Proyecto desarrollado para reforzar el manejo de la capa de presentación, motor de plantillas Jinja2 y procesamiento de formularios con Flask-WTF.</p>
+    <a href="{{ url_for('contact') }}" class="btn">Ir al Formulario de Contacto</a>
+</section>
+{% endblock %}
